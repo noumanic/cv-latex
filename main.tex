@@ -1,0 +1,324 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Based on: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Muhammad Nouman Hafeez} \\ \vspace{1pt}
+    Rawalpindi 46000, Punjab, Pakistan \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +92 310 5731939 ~ \href{mailto:noumanhafeez.nh11@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{noumanhafeez.nh11@gmail.com}} ~ 
+    \href{https://linkedin.com/in/neuralnouman}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/noumanic}}  ~
+    \href{https://github.com/neuralnouman}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/noumanic}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFILE-----------
+\section{Profile}
+Final year Computer Science student at FAST NUCES Islamabad with a deep interest in Artificial Intelligence, Full-Stack Development, and High-Performance Computing. Proficient in C/C++, Python, JavaScript, and more. Experienced in developing scalable software solutions and deploying intelligent systems across web, desktop, and embedded platforms. Passionate about teaching, open-source contributions, and applying AI in real-world applications. Enthusiastic, detail-oriented, and a continuous learner dedicated to innovation and excellence.
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://isb.nu.edu.pk/}{\underline{FAST NUCES Islamabad}}}{Aug 2021 -- Present}
+      {BS in Computer Science | CGPA: 3.01/4.00 | \href{mailto:i210416@nu.edu.pk}{\underline{i210416@nu.edu.pk}}}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Core CS:} IICT, Programming Fundamentals, OOP, Data Structures, Discrete Structures, Digital Logic Design, Computer Organization \& Assembly Language, Theory of Automata, Database Systems, Operating Systems, Design \& Analysis of Algorithms, Software Design \& Analysis, AI, Information Security, Parallel \& Distributed Computing, Software Engineering, Computer Networks}
+        \resumeItem{\textbf{Mathematics:} Probability \& Statistics, Calculus \& Analytical Geometry, Differential Equations, Linear Algebra, Numerical Computing}
+        \resumeItem{\textbf{CS Electives:} Data Mining, Fundamentals of Software Project Management, MLOps}
+        \resumeItem{\textbf{Management Electives:} Marketing Management, Fundamentals of Management}
+        \resumeItem{\textbf{Other Core:} Applied Physics, Islamic Studies/Ethics, English Composition \& Comprehension, Communication \& Presentation Skills, Technical \& Business Writing}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Full Stack AI Intern}{Jun 2025 -- Aug 2025}
+      {\href{https://www.linkedin.com/company/aim-lab/}{\underline{AIM Lab}} -- AI \& Software R\&D, Islamabad}{}
+      \resumeItemListStart
+        \resumeItem{Implementing supervised and unsupervised learning models with advanced ML pipelines}
+        \resumeItem{Developing AI-powered investment advisory platform for Pakistan Stock Exchange using LangGraph and LangChain}
+        \resumeItem{Building complete web applications with Pythonic backend (Flask API) and React frontend integration}
+        \resumeItem{Conducting research and development in applied AI systems with real-time analysis and news integration}
+        \resumeItem{Project Repository: \href{https://github.com/neuralnouman/bullbearpk.git}{\underline{github.com/noumanic/bullbearpk.git}}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AI ChatBot Development Intern}{Jul 2024 -- Aug 2024}
+      {\href{https://www.linkedin.com/company/urdux/}{\underline{UrduX}} -- IT Services and IT Consulting, Islamabad}{}
+      \resumeItemListStart
+        \resumeItem{Built an LLM-based AI ChatBot with front-end and back-end integration}
+        \resumeItem{Deployed solutions on cloud environments with scalable architecture}
+        \resumeItem{Applied NLP and ML techniques to enhance conversational systems}
+        \resumeItem{Project Repository: \href{https://github.com/noumanic/HarmonyBot-v1.0.git}{\underline{github.com/noumanic/HarmonyBot-v1.0.git}}}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------TEACHING EXPERIENCE-----------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lab Demonstrator -- Database Systems}{Jan 2025 -- Jun 2025}
+      {FAST NUCES Islamabad}{}
+      \resumeItemListStart
+        \resumeItem{Conducted practical sessions on relational databases and SQL}
+        \resumeItem{Supported students with schema design and query optimization}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Lab Demonstrator -- Operating Systems}{Jan 2025 -- Jun 2025}
+      {FAST NUCES Islamabad}{}
+      \resumeItemListStart
+        \resumeItem{Guided students in systems programming and OS concepts}
+        \resumeItem{Supervised hands-on labs on process synchronization and memory management}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistant -- Numerical Computing}{Aug 2024 -- Jan 2025}
+      {FAST NUCES Islamabad}{}
+      \resumeItemListStart
+        \resumeItem{Assisted students with algorithmic implementation of numerical methods}
+        \resumeItem{Supported instructional and grading tasks}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistant -- Differential Equations}{Jan 2024 -- Aug 2024}
+      {FAST NUCES Islamabad}{}
+      \resumeItemListStart
+        \resumeItem{Conducted tutorials and provided academic support in applied mathematics}
+        \resumeItem{Provided continued assistance in understanding and solving mathematical problems}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+          {\textbf{BullBearPK - AI Investment Advisory Platform} $|$ \emph{LangGraph, LangChain, Flask, React}}{2025}
+          \resumeItemListStart
+            \resumeItem{AI-powered investment advisory platform for Pakistan Stock Exchange with real-time analysis and news integration}
+            \resumeItem{Built using LangGraph and LangChain with Pythonic backend (Flask API) and React frontend}
+            \resumeItem{Complete web application with intelligent trading insights and market sentiment analysis}
+            \resumeItem{Repository: \href{https://github.com/neuralnouman/bullbearpk.git}{\underline{github.com/noumanic/bullbearpk.git}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{Phishing Website Detection} $|$ \emph{XGBoost, Flask, Cybersecurity}}{2024}
+          \resumeItemListStart
+            \resumeItem{Built XGBoost model to detect phishing using URL, domain, and SSL features}
+            \resumeItem{Integrated the model into a Flask-based web app with certificate verification}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\textbf{AI Controller for TORCS} $|$ \emph{Reinforcement Learning, AI}}{2024}
+          \resumeItemListStart
+            \resumeItem{Designed autonomous driving agent using reinforcement learning algorithms}
+            \resumeItem{Integrated real-time sensor data and optimized racing performance}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\textbf{DonorDrive Platform} $|$ \emph{MERN Stack, Full-Stack Development}}{2024}
+          \resumeItemListStart
+            \resumeItem{Developed MERN-based donation platform with secure login and payment systems}
+            \resumeItem{Implemented backend API and real-time campaign tracking functionality}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\textbf{OptimizedML Pipeline} $|$ \emph{CUDA, High-Performance Computing}}{2024}
+          \resumeItemListStart
+            \resumeItem{Developed CUDA-accelerated binary classification pipeline for enhanced performance}
+            \resumeItem{Applied parallel computing and hybrid CPU/GPU optimization strategies}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\textbf{SmartTraffix System} $|$ \emph{Operating Systems, C Programming}}{2023}
+          \resumeItemListStart
+            \resumeItem{Developed real-time traffic manager with synchronization and scheduling in C}
+            \resumeItem{Implemented process management and concurrent programming concepts}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: C/C++, Python, Java, JavaScript, HTML, CSS, Assembly (x86), SQL, CUDA, Bash} \\
+     \textbf{Frameworks \& Libraries}{: Flask, Node.js, React.js, Express, JavaFX, SFML, LangGraph, LangChain} \\
+     \textbf{Tools \& Technologies}{: VS Code, IntelliJ, Eclipse, PyCharm, Visual Studio, Git, Bootstrap, LaTeX, ONNX} \\
+     \textbf{Databases}{: MongoDB, MySQL, SQL} \\
+     \textbf{Domains}{: Full-Stack Web Development, AI/ML, LLMs, Deep Learning, NLP, Computer Vision, Cybersecurity, High-Performance Computing, Operating Systems, Game Development} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------LANGUAGES-----------
+\section{Languages}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Urdu}{: Native/Bilingual} \\
+     \textbf{English}{: Fluent} \\
+     \textbf{German}{: Basic / Limited Working Proficiency} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Academic}{: Consistently strong academic performance throughout university} \\
+     \textbf{Teaching}{: Successfully mentored multiple student cohorts in Computer Science and Mathematics} \\
+     \textbf{Project Portfolio}{: Completed 12+ diverse projects across AI, Web Development, and Cybersecurity} \\
+     \textbf{Industry Experience}{: Hands-on AI/ML and Full-Stack development experience through internships} \\
+     \textbf{Research}{: Actively exploring AI applications in real-world financial and business contexts} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------INTERESTS-----------
+\section{Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Professional}{: Artificial Intelligence, Cybersecurity, High-Performance Computing, Full-Stack Development, Teaching \& Mentoring} \\
+     \textbf{Personal}{: Problem Solving, Technology Exploration, Open Source Contributions, Financial Technology} \\
+    }}
+ \end{itemize}
+ \vspace{-8pt}
+
+%-------------------------------------------
+\begin{center}
+    \small{For the most up-to-date version of this CV, please visit: \href{https://github.com/noumanic/cv}{\underline{github.com/noumanic/cv-latest}}} \\
+    \vspace{2pt}
+    \small{\textit{Last Updated: October 3, 2025}}
+\end{center}
+
+\end{document}
